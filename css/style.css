@@ -1,0 +1,319 @@
+/* 'Made Saonara' */
+@font-face {
+    font-family: 'Made Saonara';
+    src: url('./MADE_SAONARA.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #131316;
+	min-width: 1320px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+     color: inherit;
+}
+
+/* event */
+#event_wrap{
+    background-color: rgb(71, 141, 207);
+    height: 33px;
+    width: 100%;
+}
+#event{
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+}
+.coupon{
+    padding-top: 6px;
+    color: #fff;
+}
+
+/* header */
+#header_wrap{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+#header{
+    width: 1320px;
+    height: 120px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Made Saonara';
+}
+.menu{
+    float: left;
+    display: flex;
+    margin-left: 35px;
+    margin-top: 53px;
+    padding-right: 180px;
+    font-size: 15px;
+}
+.menu li a{
+    padding: 20px;
+}
+.logo{
+    padding-top: 45px;
+    margin-right: 200px;
+}
+.gnb{
+    float: right;
+    display: flex;
+    margin-top: 53px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.gnb li a{
+    padding: 25px;
+}
+
+
+/* 중앙 전체 */
+.wrap{
+    width: 1320px;
+    margin: 0 auto 90px;
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+/* 상품 주문창 */
+#product {
+	width: 400px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.right h1 {
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.right h2 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.right h3 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.right dl {
+	margin: 10px 5px;
+}
+
+.right dt {
+	padding-bottom: 5px;
+}
+
+.border {
+	border-bottom: 1.5px solid #222;
+	padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.selectbox{
+	margin: 20px 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+.selectbox th{
+	text-align: left;
+	font-weight: 400;
+}
+.selectbox th, .selectbox td{
+	padding: 10px 0;
+}
+.selectbox select{
+	outline: none;
+	width: 100%;
+	padding: 10px;
+}
+
+.order {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.order li{
+	flex: 1;
+	text-align: center;
+}
+
+.order li a {
+	border: 1px #131316 solid;
+	color: #131316;
+	display: block;
+	padding: 20px 0;
+}
+
+.order li:nth-child(2) a {
+	background-color: #131316;
+	color: #fff;
+}
+
+.order li a:hover {
+	background-color: #131316;
+	color: #fff;
+}
+
+
+/* 슬라이드 */
+#wrap {
+    width: 860px;
+    height: 860px;
+    overflow: hidden;
+    margin: 0 auto;              /* 왼쪽 영역 안에서 가운데 정렬 */
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.slide {
+    display: flex;
+    width: 860px;
+}
+
+.slide img {
+    width: 860px;
+}
+
+/* 상세페이지 */
+.detail_wrap {
+	width: 860px;
+}
+
+
+/* 제품 정보 */
+.info{
+    padding: 20px 20px 0;
+}
+.info h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.info h2 {
+    font-weight: 500;
+    font-size: 20px;
+	padding: 35px 0 8px;
+	border-bottom: 1px solid #131316bf;
+	margin-bottom: 14px;
+}
+.info ol{
+	list-style: decimal inside;
+}
+
+.info .ol_in{
+	padding-left: 20px;
+	list-style: circle inside;
+}
+
+
+/* footer */
+#footer_wrap {
+    height: 200px;
+    margin-top: 200px;
+    color: #222;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Made Saonara';
+   border-bottom: #222 solid 1px;
+}
+
+#footer_gnb {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 18px;
+    color: #222;
+    padding-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    float: left;
+}
+
+.footer li {
+    padding-right: 100px;
+}
+
+.p text{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.number {
+    color: #222;
+    font-size: 25px;
+}
+
+.a_tag {
+    margin-top: 20px;
+}
+
+.a_tag li {
+    margin-bottom: 8px;
+}
+
+.a_tag li a:hover {
+    color: rgb(75, 75, 75);
+}
+
+.contents{
+    float: right;
+    text-align: right;
+}
+#footer_wrap2{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Made Saonara';
+}
+.footer_p{
+    margin-top: 30px;
+}
+
+
+/* 탑 버튼 */
+.top_btn{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	z-index: 99;
+}
+.top_btn img{
+	display: block;
+	width: 70px;
+}
+

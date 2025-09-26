@@ -1,0 +1,21 @@
+$(function(){
+    setInterval(function(){
+        $(".slide").delay(2000);
+        $(".slide").animate({
+            marginLeft:"-860px"
+        });
+        $(".slide").delay(2000);
+        $(".slide").animate({
+            marginLeft:"-1720px"
+        });
+        $(".slide").delay(2000);
+        $(".slide").animate({
+            marginLeft:"-2580px"
+        });
+        $(".slide").delay(2000);
+        $(".slide").animate({
+             marginLeft:"0px"
+        },);
+        // 0은 휘리릭 앞으로 가는 장면 안보이고 바로 감
+    });
+});
